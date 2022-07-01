@@ -1,0 +1,138 @@
+/**
+ * Theme Name: TutoTIC
+ * Theme URI: http://tutotic.gov.co/
+ * Author: Cristian Camilo Holguín Gutiérrez
+ * Author URI: 
+ * Description: Tema desarrollado para tutoTIC
+ * Version: 1.0
+ * License:
+ * License URI:
+ * Text Domain: utp
+ * Domain Path:
+ * Tags: tuto,tutorial,tic
+ * Text Domain: MinTIC, TutoTIC
+ */
+
+:root{
+    --primary: #0066cd;
+    --menu: #4120f4;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'PassionOne';
+    src: url('fonts/PassionOne-Regular.ttf');
+}
+
+body{
+    max-width: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'WorkSans';
+}
+
+a{
+    text-decoration: none;
+}
+
+.espaciadoTexto {
+    line-height: 1.5;
+    letter-spacing: 0.12em;
+    word-spacing: 0.16em;
+}
+
+.saltar a {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.saltar a:focus {
+    position: static;
+    border: 3px solid black;
+    width: 50px;
+}
+
+.cabecera{
+    position: relative;
+    box-shadow: 0 5px 4px -4px #4750a1;
+}
+
+.menuGovco{
+    background-color: var(--primary);
+    padding: 8px 0;
+}
+
+.headerGovco{
+    max-width: 1200px;
+    text-align: center;
+}
+
+.menuGovco img{
+    height: 20px;
+}
+
+.logosMintic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuPrincipal{
+    text-align: center;
+}
+
+.menuPrincipal ul {
+    margin: 0 auto;
+    width: 1200px;
+    justify-content: center;
+}
+
+.menuPrincipal ul a{
+    font-weight: 700;
+    font-size: 24pt;
+    font-family: 'PassionOne';
+    color: var(--menu);
+}
+
+.bannerPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
+.bannerPrincipal img {
+    width: 100%;
+}
+
+.logosFooter{
+    text-align: center;
+}
+
+@media (min-width:576px){
+
+}
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:992px){
+    
+}
+
+@media (min-width:1200px){
+    
+}
