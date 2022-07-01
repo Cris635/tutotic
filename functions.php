@@ -93,23 +93,6 @@ function add_additional_class_on_a($classes, $item, $args)
 
 add_filter('nav_menu_link_attributes', 'add_additional_class_on_a', 1, 3);
 
-//Redireccion de url carga y escritura de medios
-add_filter( 'upload_dir', 'same_upload_dir' );
-function same_upload_dir( array $uploads ) {
-  $baseurl = 'https://media2.utp.edu.co' . '/oficinas/' . get_current_blog_id();
-  $basedir = '/datos/htdocs/htdocs-media2/oficinas/' . get_current_blog_id();
-  $subdir = $uploads['subdir'];
-
-  return array(
-      'path'    => $basedir . $subdir,
-      'url'     => $baseurl . $subdir,
-      'subdir'  => $subdir,
-      'basedir' => $basedir,
-      'baseurl' => $baseurl,
-      'error'   => false,
-);
-}
-
 
 // funcion para añadir clases en una opcion con submenu
 
