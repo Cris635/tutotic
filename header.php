@@ -18,10 +18,10 @@
 	<header id="header">
 		<nav class="cabecera">
 			<div class="logos">
-				<div class="menuGovco">
+				<div class="menuGovco py-3">
 					<div class="header-govco">
 						<a href="https://www.gov.co/" target="blank" title="Ir al portal GOV.CO">
-						<img src="wp-content/themes/tutotic/img/header_govco.png" alt="Imagen logo GovCo" class="img-fluid">
+						<img src="wp-content/themes/tutotic/img/header_govco.png" alt="Imagen logo GovCo" class="img-fluid px-5">
 						</a>
 					</div>
 				</div>

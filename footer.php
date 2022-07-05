@@ -14,7 +14,8 @@
 
 <?php wp_footer() ?>
 	<footer class="row footer-main pt-3 pb-3" role="contentinfo" id="pie-de-pagina">
-		<div class="col-6 col-sm-7">
+		<div class="col-6 col-sm-7 px-5 pt-5"> 
+			<hr style="">
 			<p> Edificio Murillo Toro Cra. 8a entre calles 12A y 12B Bogotá,</p>
 			<p>Colombia - Código Postal 111711</p>
 			<br>

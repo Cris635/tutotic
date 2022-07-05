@@ -123,9 +123,49 @@ a{
     width: 100%;
 }
 
+.img-consulta{
+    width: 50%;
+    height: 200px;
+}
+.seccionAgendar img{
+    width: 50%;
+}
+
+
+
+.text-agendar{
+    color: plum;
+}
+
+.btn-pink{
+    background-color: plum;
+    color: white;
+    width: 200px;
+    height: auto;
+    font-size: 20pt;
+
+}
+
 .logosFooter{
     text-align: center;
 }
+
+.contain-text-consultar{
+    padding-left: 160px;
+    padding-right: 120px;
+}
+
+.titulo-consultar{
+    color: plum;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+
 
 @media (min-width:576px){
 
@@ -140,5 +180,7 @@ a{
 }
 
 @media (min-width:1200px){
-    
+    .img-consulta_pad{
+        padding-left: 200px;
+    }
 }

@@ -185,6 +185,36 @@ function utp_register_sidebars()
       'before_title'  =>  '<h3 class="titulowidget3">',
       'after_title'   =>  '</h3>'
     ));
+
+    register_sidebar(array(
+      'name'          =>  'seccionAgendar',
+      'id'            =>  'seccionAgendar',
+      'description'   =>  'Espacio para la seccion 2', 'tutotic',
+      'before_widget' =>  '<div class = "widget3">',
+      'after_widget'  =>  '</div>',
+      'before_title'  =>  '<h3 class="titulowidget4">',
+      'after_title'   =>  '</h3>'
+    ));
+
+    register_sidebar(array(
+      'name'          =>  'Seccion Consulta',
+      'id'            =>  'SeccionConsulta',
+      'description'   =>  'Espacio para la seccion 2', 'tutotic',
+      'before_widget' =>  '<div class = "widget3">',
+      'after_widget'  =>  '</div>',
+      'before_title'  =>  '<h3 class="titulowidget4">',
+      'after_title'   =>  '</h3>'
+    ));
+
+    register_sidebar(array(
+      'name'          =>  'Seccion Contacto',
+      'id'            =>  'SeccionContacto',
+      'description'   =>  'Espacio para la seccion 2', 'tutotic',
+      'before_widget' =>  '<div class = "widget3">',
+      'after_widget'  =>  '</div>',
+      'before_title'  =>  '<h3 class="titulowidget4">',
+      'after_title'   =>  '</h3>'
+    ));
   }
 }
 add_action('widgets_init', 'utp_register_sidebars');
