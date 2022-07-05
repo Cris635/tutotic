@@ -1,7 +1,7 @@
 /**
  * Theme Name: TutoTIC
  * Theme URI: http://tutotic.gov.co/
- * Author: Cristian Camilo Holguín Gutiérrez
+ * Author: Cristian Camilo Holguín Gutiérrez, Daniel Ramirez Duque
  * Author URI: 
  * Description: Tema desarrollado para tutoTIC
  * Version: 1.0
@@ -17,6 +17,12 @@
     --primary: #0066cd;
     --menu: #4664a6;
     --footer: #dae5fb;
+    --bannerestrategia: #b6345b;
+    --contacto: #e63ab8;
+    --fondocolor: #fff;
+    --fondoblanco: #000;
+    --numeros: #1b3682;
+    --sombra: #980271;
 }
 
 @font-face {
@@ -30,8 +36,8 @@
 }
 
 @font-face {
-    font-family: 'PassionOne';
-    src: url('fonts/PassionOne-Regular.ttf');
+    font-family: 'Titillium';
+    src: url('fonts/TitilliumWeb-Black.ttf');
 }
 
 body{
@@ -39,7 +45,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: 'WorkSans';
+    font-family: 'Titillium';
 }
 
 a{
@@ -105,7 +111,7 @@ a{
 .menuPrincipal ul a{
     font-weight: 700;
     font-size: 36pt;
-    font-family: 'PassionOne';
+    font-family: 'Titillium';
     color: var(--menu);
 }
 
@@ -123,22 +129,46 @@ a{
     width: 100%;
 }
 
+.seccion-consultar{
+    background-color: var(--bannerestrategia);
+    color: var(--fondocolor);
+    padding: 80px 0;
+}
+
+.titulo-consulta{
+    font-size: 44pt;
+    margin-top: 40px;
+}
+
 .img-consulta{
     width: 50%;
-    height: 200px;
 }
+
+.info-consulta{
+    font-weight: bold;
+}
+
 .seccionAgendar img{
-    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
-
+form{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .text-agendar{
-    color: plum;
+    color: var(--contacto);
 }
 
 .btn-pink{
-    background-color: plum;
+    background-color: var(--contacto);
     color: white;
     width: 200px;
     height: auto;
@@ -155,17 +185,50 @@ a{
     padding-right: 120px;
 }
 
-.titulo-consultar{
-    color: plum;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 p{
     font-size: 20px;
+    font-family: 'WorkSans';
 }
 
+.seccionContacto{
+    background-color: var(--numeros);
+}
 
+.seccionContacto h2{
+    color: white;
+    font-size: 44pt;
+    text-align: center;
+}
+
+.lineaNacional{
+    background-color: var(--bannerestrategia);
+    border-radius: 50px;
+    border: 5px solid var(--fondocolor);
+    box-shadow: var(--sombra);
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Titillium';
+    font-size: 44pt;
+    word-spacing: 2px;
+    color: var(--fondocolor);
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 6px var(--sombra);
+}
+
+.logoWhatsapp{
+    max-width: 70px;
+    max-height: 70px;
+    margin: 10px 0;
+}
+
+.informacionContacto{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
 @media (min-width:576px){
 

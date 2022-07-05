@@ -70,3 +70,9 @@ strong {
 .informacion-institucional {
     padding: 30px;
 }
+
+.lineaFooter{
+    background-color: #4b2cf4; 
+    width:45%;
+    height: 2px;
+}
